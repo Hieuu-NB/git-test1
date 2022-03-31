@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #457eff;
+    width: 100%;
+    /* height: 60px; */
+    padding: 10px;
+}
+img{
+    background: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.menu-head{
+    display: flex;
+    /* padding: 10px 10px 10px 25px; */
+    height: 40px;
+    width: 35%;
+    justify-content: space-between;
+}
+.menu-head > div > a{
+    line-height: 40px;
+    color: white;
+    font-size: 18px;
+    margin: 15px;
+    cursor: pointer;
+}
+.account{
+    margin-right: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.account > span{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 5px 0px 0px 13px;
+    line-height: 30px;
+    background: gray;
+    border-radius: 50%;
+}
+.account i {
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+}
+.account > span{
+    cursor: pointer;
+}
+.title{
+    margin: 15px;
+}
+.option{
+    display: flex;
+    margin: 0px 15px 15px 15px;
+    font-size: 18px;
+}
+.option > div:nth-child(1),.option > div:nth-child(2) {
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.option > div:nth-child(1){
+    color: #457eff;
+    font-weight: bold;
+    border-bottom: none;
+
+}
+.option > div:nth-child(2){
+    background: #c1c0c0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4c4444;
+}
+
+.option > div:nth-child(3){
+    width: 87%;
+    border-bottom: 1px solid gray;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px 0px 15px;
+}
+.search > input {
+    width: 45%;
+    padding: 5px 10px 5px 15px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.search > div {
+    background: #457eff;
+    /* line-height: 30px; */
+    padding: 5px 10px 0px 5px;
+    color: white;
+    cursor: pointer;
+}
+.search > div > i{
+    margin-top: 4px;
+}
+.table{
+    margin: 15px;
+}
+.table > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 40px 15px 40px;
+    border-bottom: 1px solid gray;
+}
+.table > div > div{
+    
+}
+.table > div:first-child{
+    background: #457eff;
+    color: white;
+    border-bottom: none;
+}
+.table > div:first-child > div:nth-child(8){
+    background: none;
+} 
+.table > div:nth-child(even){
+    background: #e7e5e5;
+}
+.table > div > div:nth-child(8) > i {
+    margin-top: 5px;
+}
+.table > div > div:nth-child(8){
+    background: #175bf5;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
